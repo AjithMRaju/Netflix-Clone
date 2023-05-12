@@ -1,0 +1,10 @@
+.mylist-container{
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.mylistTitle{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}

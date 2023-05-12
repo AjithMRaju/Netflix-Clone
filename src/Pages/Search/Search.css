@@ -1,0 +1,64 @@
+
+
+
+.search-images{
+    width: 100%;
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.search-image{
+    height: 250px;
+}
+
+
+
+
+.search-image:hover img {
+    transform: scale(1.1);
+}
+
+
+/* INPUT STYLING */
+.searcInput{
+    /* background-color: #1f1f1f75; */
+    /* width: 100%; */
+    background-color: #232423;
+    outline: none;
+    border: none;
+    min-width: 400px;
+    color: #fff;
+    height: 30px;
+    border-radius: 4px 0 0 4px;
+}   
+
+.search-icon{
+    background-color: #1f1f1f75;
+    height: 30px;
+    border-radius: 0 4px 4px 0;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.image-container p{
+    width: 172px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* NEW CUSTOM STYLING FOR RAWS HERE */
+
+.grid{
+    display: grid;
+    margin-left: .5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.2rem;
+    justify-content: center;
+}

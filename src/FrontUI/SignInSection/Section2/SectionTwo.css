@@ -1,0 +1,40 @@
+:root{
+    --bcg:black;
+    --color:#fff;
+}
+section{
+    background-color: black;
+}
+.section-2{
+    background-color: black;
+}
+
+
+.tv-image img{
+    width: 100%;
+}
+.tv-image{
+    position: relative;
+    overflow: hidden;
+}
+ .video-section{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 21%;
+    right: 14%;
+} 
+ .add-video{
+    width: 100%;
+ }
+
+/* CONDITIONAL RENDERING STYLE */
+.default-image {
+    width: 100%;
+}
+.default-image img {
+    width: 100%;
+}

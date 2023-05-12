@@ -1,0 +1,62 @@
+:root {
+    --bcg: black;
+}
+
+.section-3 {
+    background-color: black;
+}
+
+
+.add-img img {
+    width: 100%;
+}
+
+.add-img {
+    position: relative;
+
+}
+
+.add-show {
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.75rem;
+    position: absolute;
+    left: 25%;
+    bottom: auto;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+}
+
+.add-show-img img {
+    height: 3rem;
+}
+
+.add-show-title {
+    line-height: 1;
+}
+
+.show-dwnld {
+    color: blue;
+}
+
+.animation {
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgba(0, 0, 0, 1);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}

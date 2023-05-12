@@ -1,0 +1,21 @@
+.heights{
+    height:2rem;
+    font-weight: 500;
+}
+
+/* INPUT BACKGROUND COLOR  */
+.input__bcg{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #222;
+    color: #b3b3b3;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+/* signup button styling */
+.signUp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}

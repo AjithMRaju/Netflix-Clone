@@ -1,0 +1,43 @@
+/* .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    
+    overflow: hidden;
+  } */
+  
+  /* .video-container iframe {
+    position: absolute;
+    top: 35;
+    left: 0;
+    width: 500px;
+    height: 100%;
+  } */
+
+
+  .watch{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .back a{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 2;
+  }
+
+  .video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}

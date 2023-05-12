@@ -1,0 +1,121 @@
+
+
+
+
+
+
+/*  NEW MODEL CARD STYLING */
+
+.cardz{
+    position: relative;
+    /* width: 188px; */
+    width: 90%;
+    height: 282px;
+    overflow: hidden;
+    border-radius: 3px;
+    /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25); */
+    cursor: pointer;
+}
+.cardz .poster{
+    position: relative;
+    overflow: hidden;
+}
+
+.cardz .poster::before{
+    position: absolute;
+    bottom: -180px;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,#111 50%,transparent);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.cardz:hover .poster::before{
+    bottom: 0px;
+}
+
+.cardz .poster img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.cardz:hover .poster img{
+    transform: translateY(-50px);
+    filter: blur(2px);
+}
+
+
+.cardz .details{
+    position: absolute;
+    bottom: -195px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.cardz:hover .details
+{
+    bottom: 40px;
+}
+
+.cardz .details h3{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+    width: 169px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.star{
+    color: yellow;
+}
+
+.cardz .details .ratings
+{
+    position: relative;
+    /* padding: 5px 0; */
+}
+
+.cardz .details .ratings span{
+    color: #fff;
+}
+
+
+.cardz .details .tags{
+    position: relative;
+    /* margin-top: 5px; */
+}
+
+
+
+.cardz .details .tags span
+{
+    /* padding: 2px 5px; */
+    color: #fff;
+}
+
+/* .cardz .details .info {
+    margin-top: 20px;
+} */
+.cardz .details .info  p{
+    color: #fff;
+    font-size: 0.65rem;
+
+}
+
+
+
+
+/* height: 300px;
+    
+    color: #fff;
+    font-size: 0.65rem; */
+
+
+    
